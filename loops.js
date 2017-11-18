@@ -20,6 +20,6 @@ function whileLoop(n){
 function doWhileLoop(array){
   do{
     array.splice(1)
-  } while (array.length > 0 && maybeTrue());
+  } while (array.length > 0);
   return array
 }
