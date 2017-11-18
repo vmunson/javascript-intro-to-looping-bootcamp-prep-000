@@ -16,3 +16,10 @@ function whileLoop(n){
   }
   return "done"
 }
+
+function doWhileLoop(array){
+  do{
+    array.splice(1)
+  } while (array.length > 0 && maybeTrue());
+  return array
+}
